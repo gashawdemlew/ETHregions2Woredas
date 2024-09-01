@@ -1,8 +1,14 @@
 import json
+import pkg_resources
 
 # Load data from JSON file
-with open('ETHregions2Woredas/data.json') as f:
+data_path = pkg_resources.resource_filename('ETHregions2Woredas', 'data.json')
+with open(data_path) as f:
     REGIONS_DATA = json.load(f)
+
+# Load data from JSON file
+# with open('ETHregions2Woredas/data.json') as f:
+#     REGIONS_DATA = json.load(f)
 
 def get_all_regions():
     return list(REGIONS_DATA.keys())

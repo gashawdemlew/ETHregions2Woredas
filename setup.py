@@ -2,13 +2,21 @@ from setuptools import setup, find_packages
 
 setup(
     name='ETHregions2Woredas',
-    version='0.1.0',
+    version='0.1.1',
     packages=find_packages(),
-    package_data={'ETHregions2Woredas': ['data.json']},
-    description='A package containing code parser and json of regions, zones, and woredas data',
-    author='Gashaw Demlew',
-    author_email='gashudemman@gmail.com',
-    url='https://github.com/gashawdemlew/ETHregions2Woredas',
+    include_package_data=True,
+    package_data={
+        'ETHregions2Woredas': ['data.json'],
+    },
+    install_requires=[
+        # Add your dependencies here
+    ],
+    author='Your Name',
+    author_email='your.email@example.com',
+    description='A brief description of your package',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/yourusername/ETHregions2Woredas',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

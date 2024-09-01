@@ -7,7 +7,7 @@ A Python package that provides a complete list of regions, zones, and woredas.
 You can install the package using pip:
 
 ```bash
-pip install regions_package
+pip install ETHregions2Woredas==0.1.1
 
 ```
 
@@ -16,7 +16,7 @@ pip install regions_package
 Here's how to use the package:
 
 ```python
-from regions_package import (
+from ETHRegions2Woredas import (
     get_all_regions,
     get_all_zones,
     get_zones_by_region,
@@ -69,3 +69,6 @@ print("Zone of Amhara Sayint:", zone_of_woreda)
 all_woredas = get_all_woredas()
 print("All Woredas:", all_woredas)
 ```
+
+# Or Clone github Repo
+You can test (use test.py) by clone repo and collaborate on it by adding more functionalities and features (include adding Zones and Woredas)

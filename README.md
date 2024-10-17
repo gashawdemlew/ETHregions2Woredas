@@ -1,6 +1,6 @@
 # ETHRegions2Woredas Package
 
-A Python package that provides a complete list of regions, zones, and woredas.
+A Python package that provides a complete list of regions, zones, and woredas of Ethiopia.
 
 ## Installation
 

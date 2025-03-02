@@ -16,7 +16,7 @@ pip install ETHregions2Woredas==0.1.1
 Here's how to use the package:
 
 ```python
-from ETHRegions2Woredas import (
+from ETHregions2Woredas import (
     get_all_regions,
     get_all_zones,
     get_zones_by_region,
